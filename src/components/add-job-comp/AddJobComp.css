@@ -1,0 +1,44 @@
+
+.addjobParent{
+    padding: 20px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(186, 219, 238); ;
+    width: 80%;
+    border-radius: 20px;
+}
+
+.parentInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.parentInput input{
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#desc{
+width: 100%;
+height: 175px;
+
+border: none;
+border-radius: 20px;
+resize: none;
+
+}
+
+.btn{
+    align-self: center;
+    width: 100%;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: #4abbf0 ;
+    cursor: pointer;
+    transition: all ease 0.25s;
+    &:hover{
+        background-color: #29a3dc ;
+    }
+}
