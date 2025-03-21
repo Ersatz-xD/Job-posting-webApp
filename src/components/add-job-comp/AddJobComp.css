@@ -4,30 +4,34 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: rgb(186, 219, 238); ;
+    background-color: rgb(186, 219, 238); 
     width: 80%;
     border-radius: 20px;
 }
 
 .parentInput{
+    
     display: flex;
     justify-content: space-between;
 }
 
 .parentInput input{
+    background-color: whitesmoke;
     padding: 10px 20px;
     border-radius: 20px;
 }
 
 #desc{
-width: 100%;
-height: 175px;
-
-border: none;
-border-radius: 20px;
-resize: none;
-
-}
+    
+    background-color: whitesmoke;
+    width: 100%;
+    height: 175px;
+    
+    border: none;
+    border-radius: 20px;
+    resize: none;
+    
+    }
 
 .btn{
     align-self: center;
