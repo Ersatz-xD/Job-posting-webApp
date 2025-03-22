@@ -7,8 +7,8 @@ import SignupPage from './pages/SignupPage.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <App /> */}
+    <App />
     {/* <LoginPage/> */}
-    <SignupPage/>
+    {/* <SignupPage/> */}
   </StrictMode>,
 )
