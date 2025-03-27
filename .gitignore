@@ -14,10 +14,15 @@ node_modules/
 dist/
 .vite/
 
+# Backend Build & Dependencies
+backend/node_modules/
+backend/dist/
+
 # Environment Variables
 .env
 .env.local
 .env.*.local
+backend/.env
 
 # Editor directories and files
 .vscode/
@@ -29,3 +34,4 @@ dist/
 *.njsproj
 *.sln
 *.sw?
+
