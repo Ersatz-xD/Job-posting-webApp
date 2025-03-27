@@ -7,7 +7,7 @@ import axios from 'axios'
 
 export const HomePage = () => {
 
-    const fetchJobs = () => {
+    const fetchJobs = async () => {
         await axios.get()
     }
   return (
