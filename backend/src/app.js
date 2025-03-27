@@ -5,7 +5,9 @@ const app = express();
 
 //________________Middlewares
 //cors
-app.use(cor());
+app.use(cor({
+    origin: process.env.CORS_ORIGIN,
+}));
 app.use(express.json())
 
 export default app;
